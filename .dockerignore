@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Git
+.git/
+.gitignore
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Strapi temporary files and caches
+.tmp/
+.cache/
+.strapi/
+.strapi-cloud.json
+
+# Build artifacts
+build/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local uploads
+public/uploads/*
+
+# Operating system and IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+
